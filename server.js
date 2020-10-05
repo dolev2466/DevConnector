@@ -10,10 +10,12 @@ const profile = require('./routes/api/profile');
 // Connect Database
 connectDB();
 
+//Init Middelware
+app.use(express.json({ extended: false }));
+
 app.get('/', (req, res) => res.send('API Running'));
 
 //Define Routes
-
 app.use('/api/users', users);
 app.use('/api/auth', auth);
 app.use('/api/posts', posts);
