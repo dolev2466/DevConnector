@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://Dolev2466:dolev1579@devconnector.ekgwt.mongodb.net/<dbname>?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken"
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "5bca5f58d4c42c4adc98",
+  "githubSecret": "eb1dc9d220a50fc936fcde16998d7e83f9104f09"
 }
